@@ -1,0 +1,243 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:ital,wght@0,400;0,600;1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 4rem;
+}
+body{
+    background-color: #fffafa;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+main{
+    color : #6c10dd;
+    font-weight: bold;
+    padding:10px;
+    margin: 0;
+}
+.name{
+    font-size: 1.5rem;
+}
+.check-out{
+    font-weight: bold;
+    font-size: larger;
+    color:#00296b
+}
+.navbarlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+.navbar{
+    margin: 0;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+}
+h3{
+    color:#5e60ce;
+    font-family: Verdana;
+}
+#icon{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+.welcome{
+    margin-bottom: 0;
+}
+.welcome-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: #9ff3e8;
+    color: #240046;
+    font-weight: bold;
+}
+.myimg img{
+    height: 400px;
+    padding: 50px; 
+}
+.intro-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    width: 45%;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+.intro{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color:#8347d3 ; */
+    /* font-weight: 700;
+    padding: 10px;
+    width: 40%; */
+    padding-top: 3.5rem;
+    padding-right: 200px;
+
+}
+#Experience,#skills{
+    background-color: #9bf6ff;
+    text-align: center;
+    padding-top: 70px;
+}
+#Experience h2,#skills h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.exp{
+    display: flex;
+    background-color: #9bf6ff;
+    padding: 10px;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* margin: 4%; */
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0;
+    flex: 1;
+    padding: 7px;
+    /* border-right: 2px solid #1c95dbb6; */
+    font-size: larger;
+    background-color: #003566;
+    margin: 1rem;
+    border-radius: 30px;
+    color: white;
+}
+.col h3{
+    font-size: 1.75rem;
+    color: white;
+}
+.col h4{
+    color: #ade8f4;
+    margin-bottom: 0;
+}
+.img-container{
+    width: 25%;
+    height: 25%;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+
+}
+.links{
+    background-color: #000000;
+    padding: 2rem 3rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: Verdana, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+h2{
+    font-size: 2rem;
+    color:#480ca8;
+    font-weight: bold;
+}
+
+h4{
+    color:#240046;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hobbies {
+    background-color: white;
+    padding-bottom: 2rem;
+    padding-top: 70px;
+}
+
+.title-hobbies {
+    color:#480ca8;
+    padding: 3rem 0;
+    padding-bottom: 2.5rem;
+    font-size: 2.6rem;
+    margin: auto;
+    text-align: center;
+}
+
+.hobbies-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hobby-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobby-title {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.hobby-img {
+    width: 180px;
+}
+.skills{
+    margin: 10px;
+    border-radius: 0;
+}
+.footerlist{
+    margin: 0;
+    padding: 1rem 3rem;
+}
+.footerlist a{
+    color: white;
+}
+.links h2{
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+}
+#skills .col{
+    background-color: #27187e;
+}
+.painting{
+    padding-top: 70px;
+}
+.painting img{
+    width: 40%;
+    height: 40%;
+    margin: 4%
+}

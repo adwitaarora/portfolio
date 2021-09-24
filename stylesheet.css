@@ -241,3 +241,22 @@ h4{
     height: 40%;
     margin: 4%
 }
+#Education h2{
+    text-align: center;
+}
+#Education{
+    padding: 50px;
+    color: grey;
+    font-size: 1.2rem;
+}
+table,tr,td{
+    text-align: center;
+    margin-left: 480px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    font-weight: bold;
+}
+
+
